@@ -4,7 +4,7 @@
 Add an embedded interactive map from WindyLinks to the **index.html** page of the website. The map will be customized to display the user’s local area and link to the full Windy.com site when clicked.  
 
 ## Reasons for the Change  
-The stakeholder (instructor) requested the addition of this feature to provide users with more engaging, location-specific content. The embedded map will enhance the interactivity of the website and align with the stakeholder’s vision for improving user experience.  
+The stakeholder (instructor) requested the addition of this feature to provide users with more engaging, location-specific content. The embedded map will enhance the interactivity of the website and align with the stakeholder’s vision for improving user experience.
 
 ## How This Change Will Add Value  
 - Offers a visually dynamic feature that enriches the website.  
