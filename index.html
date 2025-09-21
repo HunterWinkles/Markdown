@@ -1,84 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Personal Introduction - Hunter Winkles</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    /* Smooth scroll animation */
-    html {
-      scroll-behavior: smooth;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooking with Hunter</title>
+    <link rel="stylesheet" href="style.css"> <!-- optional -->
 </head>
-<body class="bg-gray-100 text-gray-900 font-sans">
-  <!-- Header -->
-  <header class="text-center py-10 bg-white shadow-md animate-fadeIn">
-    <img src="https://via.placeholder.com/150" alt="Profile Picture"
-      class="w-32 h-32 rounded-full mx-auto mb-4 shadow-lg transform transition duration-500 hover:scale-110">
-    <h1 class="text-4xl font-bold">Hunter Winkles</h1>
-    <p class="text-lg text-gray-600 mt-2">Aspiring Cloud Engineer | Tech Enthusiast | Lifelong Learner</p>
-  </header>
+<body>
+    <h1>Welcome to Cooking with Hunter!</h1>
+    <p>Here’s a live map of my area, North Richland Hills, TX:</p>
 
-  <!-- Main Content -->
-  <main class="max-w-4xl mx-auto p-6">
-    <!-- About Section -->
-    <section class="mb-10 animate-slideUp">
-      <h2 class="text-2xl font-semibold mb-3">About Me</h2>
-      <p class="text-gray-700 leading-relaxed">
-        Hi, I’m Hunter! I’m passionate about cloud technologies, DevOps, and building scalable systems.
-        I’m currently studying for AWS certifications and love exploring automation, infrastructure as code, and modern deployment strategies.
-      </p>
-    </section>
-
-    <!-- Skills Section -->
-    <section class="mb-10 animate-slideUp" style="animation-delay: 0.2s;">
-      <h2 class="text-2xl font-semibold mb-3">Skills</h2>
-      <ul class="grid grid-cols-2 sm:grid-cols-4 gap-4 text-gray-700">
-        <li class="bg-white p-3 rounded-xl shadow hover:shadow-lg transition">✔ AWS Cloud</li>
-        <li class="bg-white p-3 rounded-xl shadow hover:shadow-lg transition">✔ DevOps Tools</li>
-        <li class="bg-white p-3 rounded-xl shadow hover:shadow-lg transition">✔ Python</li>
-        <li class="bg-white p-3 rounded-xl shadow hover:shadow-lg transition">✔ Docker & Kubernetes</li>
-      </ul>
-    </section>
-
-    <!-- Connect Section -->
-    <section class="mb-10 animate-slideUp" style="animation-delay: 0.4s;">
-      <h2 class="text-2xl font-semibold mb-3">Connect with Me</h2>
-      <div class="flex flex-wrap gap-4">
-        <a href="https://github.com/HunterWinkles" target="_blank"
-          class="text-blue-500 hover:underline hover:scale-105 transform transition">GitHub</a>
-        <a href="https://linkedin.com/in/HunterWinkles" target="_blank"
-          class="text-blue-500 hover:underline hover:scale-105 transform transition">LinkedIn</a>
-        <a href="mailto:your.email@example.com"
-          class="text-blue-500 hover:underline hover:scale-105 transform transition">Email</a>
-      </div>
-    </section>
-  </main>
-
-  <!-- Footer -->
-  <footer class="text-center py-6 text-gray-500">
-    © 2025 Hunter Winkles. All rights reserved.
-  </footer>
-
-  <!-- Animation Styles -->
-  <style>
-    @keyframes fadeIn {
-      from { opacity: 0; }
-      to { opacity: 1; }
-    }
-    .animate-fadeIn {
-      animation: fadeIn 1s ease-in-out;
-    }
-
-    @keyframes slideUp {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-    .animate-slideUp {
-      animation: slideUp 1s ease-in-out forwards;
-    }
-  </style>
+    <!-- Windy.com Embed for North Richland Hills, TX -->
+    <iframe 
+      width="650" 
+      height="450" 
+      src="https://embed.windy.com/embed2.html?lat=32.8343&lon=-97.2289&zoom=7&level=surface&overlay=wind&menu=&message=true&marker=true&calendar=now&pressure=true&type=map&location=coordinates&detail=true&detailLat=32.8343&detailLon=-97.2289&metricWind=default&metricTemp=default&radarRange=-1" 
+      frameborder="0">
+    </iframe>
 </body>
 </html>
